@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: #0b3d2e;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 42px;
+  letter-spacing: 3px;
+}
+
+header p {
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+nav {
+  background: #111;
+  padding: 12px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #25D366;
+}
+
+main {
+  padding: 10px;
+}
+
+.tarjeta {
+  background: white;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.tarjeta h2 {
+  color: #0b3d2e;
+  margin-bottom: 12px;
+}
+
+.tarjeta img {
+  width: 100%;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+
+.tarjeta p {
+  margin-top: 10px;
+}
+
+.autobiografia {
+  border-left: 8px solid #25D366;
+  background: #fffdf5;
+}
+
+.centro {
+  text-align: center;
+}
+
+button {
+  background: #25D366;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+button:hover {
+  background: #1eb856;
+}
+
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
